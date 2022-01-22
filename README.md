@@ -18,7 +18,7 @@
 - 対象: addr.ja
 - オープンソースの住所正規化ライブラリ。
 - 経産省の [IMI コンポーネントツール](https://info.gbiz.go.jp/tools/imi_tools/)のジオコーディングの仕組みからインスピレーションをうけて開発された。
-- [総務省からダウンロードできる全国地方公共団体コード コード一覧表](https://www.soumu.go.jp/denshijiti/code.html)とは、住所の表記の仕方が異なるため、これを使用する場合地方公共団体コードテーブルの正規化が必要。
+- [総務省からダウンロードできる全国地方公共団体コード コード一覧表](#都道府県コード--地方公共団体コードwikipedia)とは、住所の表記の仕方が異なるため、これを使用する場合地方公共団体コードテーブルの正規化が必要。
 
 ### [google/libphonenumber](https://github.com/google/libphonenumber)
 - 対象: tel.ja
