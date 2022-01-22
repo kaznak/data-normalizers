@@ -10,6 +10,9 @@
 - The uconv command is an iconv(1)-like conversion / transcoding program.
 - 色々な変換が可能
   - `uconv -f utf-8 -t utf-8 -x --remove-signature '::nfkc;'` BOM を削除し NFKC で unicode 正規化
+  - `echo -e "あいうえお\nカキクケコ" | uconv -x latin` かなをローマ字化
+  - `echo -e "あいうえお\nカキクケコ" | uconv -x hiragana-latin` ひらがなのみをローマ字化
+  - `echo -e "あいうえお\nカキクケコ" | uconv -x katakana-latin` カタカナのみをローマ字化
 
 ### [geolonia/normalize-japanese-addresses](https://github.com/geolonia/normalize-japanese-addresses)
 - 対象: addr.ja
