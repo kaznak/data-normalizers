@@ -1,11 +1,14 @@
 # data-normalizers
 
-データの正規化等ライブラリ等を収集します。
+データの正規化ライブラリ等を収集します。
 プルリク大歓迎です。
 
 ## 文字コード
 
-- uconv
+- [uconv](https://github.com/unicode-org/icu/tree/main/icu4c/source/extra/uconv)([wikipedia](https://en.wikipedia.org/wiki/Uconv),[library document](https://unicode-org.github.io/icu/))
+  - The uconv command is an iconv(1)-like conversion / transcoding program.
+  - 色々な変換が可能
+    - `uconv -f utf-8 -t utf-8 -x --remove-signature '::nfkc;'` BOM を削除し NFKC で unicode 正規化
 
 ## 住所
 
