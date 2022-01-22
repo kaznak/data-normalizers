@@ -3,6 +3,10 @@
 データの正規化等ライブラリ等を収集します。
 プルリク大歓迎です。
 
+## 文字コード
+
+- uconv
+
 ## 住所
 
 - (ja) [geolonia/normalize-japanese-addresses](https://github.com/geolonia/normalize-japanese-addresses)
