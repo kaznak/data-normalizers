@@ -20,6 +20,9 @@
 - 経産省の [IMI コンポーネントツール](https://info.gbiz.go.jp/tools/imi_tools/)のジオコーディングの仕組みからインスピレーションをうけて開発された。
 - [総務省からダウンロードできる全国地方公共団体コード コード一覧表](#都道府県コード--地方公共団体コードwikipedia)とは、住所の表記の仕方が異なるため、これを使用する場合地方公共団体コードテーブルの正規化が必要。
 
+- 関連:
+  - [kaznak/normalize-japanese-addresses-cli](https://github.com/kaznak/normalize-japanese-addresses-cli)([npm](https://www.npmjs.com/package/normalize-japanese-addresses-cli))
+
 ### [google/libphonenumber](https://github.com/google/libphonenumber)
 - 対象: tel.ja
 - Google's common Java, C++ and JavaScript library for parsing, formatting, and validating international phone numbers. The Java version is optimized for running on smartphones, and is used by the Android framework since 4.0 (Ice Cream Sandwich).
